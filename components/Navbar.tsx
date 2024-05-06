@@ -51,7 +51,6 @@ const Navbar = (props: Props) => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
             >
@@ -67,7 +66,6 @@ const Navbar = (props: Props) => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
             >
@@ -106,7 +104,7 @@ const Navbar = (props: Props) => {
           </div>
         </>
       ) : (
-        <UserButton afterSignOutUrl="/sign-in" />
+          <UserButton  afterSignOutUrl="/sign-in"/>
       )}
     </nav>
   );
